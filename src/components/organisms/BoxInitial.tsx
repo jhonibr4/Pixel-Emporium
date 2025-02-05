@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { DescriptionHome } from '../atoms/DescriptionHome'
 import { StoreName } from '../atoms/StoreName'
 import { TextHome } from '../atoms/TextHome'
@@ -12,9 +13,12 @@ export function BoxInitial() {
           description="Bem-vindo ao Pixel Emporium, o destino perfeito para os amantes da cultura
         geek!"
         />
-        <button className=" mt-6 rounded-full bg-slate-900 px-8 py-2 text-xl font-bold text-white">
+        <Link
+          href="/store"
+          className=" mt-6 rounded-full bg-slate-900 px-8 py-2 text-xl font-bold text-white"
+        >
           Conheça já
-        </button>
+        </Link>
       </div>
     </div>
   )
