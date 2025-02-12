@@ -15,7 +15,7 @@ export function WrapperSocialMedia() {
         alt="Image Anya"
         className="absolute -top-[1.35rem] w-40"
       />
-      <div className=" flex min-h-11 min-w-24 gap-7 rounded-2xl bg-primary-550 p-2">
+      <div className=" bg-principal-550 flex min-h-11 min-w-24 gap-7 rounded-2xl p-2">
         <ButtonSocialMedia
           socialMedia="Behance"
           socialURL="#"

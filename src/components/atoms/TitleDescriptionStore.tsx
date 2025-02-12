@@ -4,7 +4,7 @@ interface ITitleDescriptionStore {
 
 export function TitleDescriptionStore({ title }: ITitleDescriptionStore) {
   return (
-    <p className="font-Roboto my-5 text-3xl font-bold text-primary-550">
+    <p className="font-Roboto text-principal-550 my-5 text-3xl font-bold">
       {title}
     </p>
   )

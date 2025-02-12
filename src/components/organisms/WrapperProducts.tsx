@@ -1,6 +1,9 @@
 import { ButtonProducts } from '../molecules/ButtonProducts'
 
-import TShirt from '../../assets/T-shirt Deidara.png'
+import ImgTShirt from '../../assets/T-shirt Deidara.png'
+import ImgActionFigure from '../../assets/Sub-zero.png'
+import ImgMoletom from '../../assets/Moleton Gojo.png'
+import ImgManga from '../../assets/Mangas.png'
 
 export function WrapperProducts() {
   return (
@@ -8,22 +11,22 @@ export function WrapperProducts() {
       <ButtonProducts
         descriptionImage="Image T-Shirts"
         title="T-Shirt"
-        imageProduct={TShirt}
+        imageProduct={ImgTShirt}
       />
       <ButtonProducts
-        descriptionImage="Image T-Shirts"
-        title="T-Shirt"
-        imageProduct={TShirt}
+        descriptionImage="Image Action Figure"
+        title={'Action \nFigure'}
+        imageProduct={ImgActionFigure}
       />
       <ButtonProducts
-        descriptionImage="Image T-Shirts"
-        title="T-Shirt"
-        imageProduct={TShirt}
+        descriptionImage="Image Moletom"
+        title="Moletom"
+        imageProduct={ImgMoletom}
       />
       <ButtonProducts
-        descriptionImage="Image T-Shirts"
-        title="T-Shirt"
-        imageProduct={TShirt}
+        descriptionImage="Image Mangá e HQ"
+        title={`Mangás \nHQ's`}
+        imageProduct={ImgManga}
       />
     </div>
   )

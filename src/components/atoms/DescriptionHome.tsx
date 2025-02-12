@@ -4,7 +4,7 @@ interface IDescription {
 
 export function DescriptionHome({ description }: IDescription) {
   return (
-    <p className="font-Roboto text-3xl font-bold text-slate-900">
+    <p className="font-Roboto mb-8 text-3xl font-bold text-slate-900">
       {description}
     </p>
   )

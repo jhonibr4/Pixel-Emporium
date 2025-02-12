@@ -5,7 +5,7 @@ import { TextHome } from '../atoms/TextHome'
 
 export function BoxInitial() {
   return (
-    <div className="custom-path flex w-3/5 items-center justify-center rounded-sm bg-primary-550">
+    <div className="bg-principal-550 custom-path flex w-3/5 items-center justify-center rounded-sm">
       <div className="mr-28 mt-20 w-1/2">
         <StoreName title="Pixel Emporium" />
         <TextHome text="O paraíso geek!" />
@@ -15,7 +15,7 @@ export function BoxInitial() {
         />
         <Link
           href="/store"
-          className=" mt-6 rounded-full bg-slate-900 px-8 py-2 text-xl font-bold text-white"
+          className=" rounded-full bg-slate-900 px-12 py-4 text-xl font-bold text-white"
         >
           Conheça já
         </Link>

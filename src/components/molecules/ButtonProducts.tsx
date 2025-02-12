@@ -13,13 +13,15 @@ export function ButtonProducts({
   descriptionImage,
 }: IButtonProducts) {
   return (
-    <button className=" relative flex h-[28rem] w-1/3 items-end justify-center bg-slate-400">
-      <label className="custom-text-shadow mt-36 text-[14rem]">{title}</label>
+    <a className=" relative flex h-[22rem] w-1/2 items-end justify-start overflow-hidden border-2 border-gray-700">
+      <label className="custom-text-shadow ml-12 whitespace-pre-line text-start text-[10rem] leading-none text-transparent">
+        {title}
+      </label>
       <Image
         src={imageProduct}
         alt={descriptionImage}
-        className="absolute bottom-0 right-0 h-4/5 w-auto"
+        className="absolute bottom-0 right-0 h-full w-auto"
       />
-    </button>
+    </a>
   )
 }

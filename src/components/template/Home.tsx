@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Alita from '../../assets/Alita.png'
-import { BoxInitial } from '@/components/organisms/BoxInitial'
+import { BoxInitial } from '../organisms/BoxInitial'
 
 export function Home() {
   return (

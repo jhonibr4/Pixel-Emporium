@@ -5,7 +5,7 @@ export function WrapperLogin() {
     <div className="flex h-full w-24 flex-col justify-center gap-1 ">
       <ButtonsLogin
         text="Login"
-        className="h-8 rounded bg-primary-550 font-semibold text-slate-900"
+        className="bg-principal-550 h-8 rounded font-semibold text-slate-900"
       />
       <ButtonsLogin
         text="Cadastrar-se"
