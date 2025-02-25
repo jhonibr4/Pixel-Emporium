@@ -1,10 +1,10 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props'
-import Image from 'next/image'
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import Image from "next/image";
 
 interface IButtonProducts {
-  descriptionImage: string
-  imageProduct: StaticImport
-  title: string
+  descriptionImage: string;
+  imageProduct: StaticImport;
+  title: string;
 }
 
 export function ButtonProducts({
@@ -23,5 +23,5 @@ export function ButtonProducts({
         className="absolute bottom-0 right-0 h-full w-auto"
       />
     </a>
-  )
+  );
 }

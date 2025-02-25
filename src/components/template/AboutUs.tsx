@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import FlashImg from '../../assets/Flash.png'
+import Image from "next/image";
+import FlashImg from "../../assets/Flash.png";
 
 export function AboutUs() {
   return (
     <div className="relative flex max-w-full flex-col items-center bg-slate-800">
-      <h1 className="text-principal-550 mt-8 text-4xl font-bold">Sobre Nós</h1>
+      <h1 className="mt-8 text-4xl font-bold text-principal-550">Sobre Nós</h1>
       <p className="mt-4 w-4/5 text-justify text-lg font-bold">
         Na Pixel Emporium, somos um verdadeiro refúgio para os aficionados pela
         cultura geek. Nossa loja é um universo paralelo, onde os amantes de
@@ -26,5 +26,5 @@ export function AboutUs() {
         />
       </div>
     </div>
-  )
+  );
 }

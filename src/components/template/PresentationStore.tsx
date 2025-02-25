@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import ImgAnimes from '../../assets/Image Character Animes.png'
-import { DescriptionStore } from '../atoms/DescriptionStore'
-import { TitleDescriptionStore } from '../atoms/TitleDescriptionStore'
-import { ButtonDescriptionStore } from '../molecules/ButtonDescriptionStore'
+import Image from "next/image";
+import ImgAnimes from "../../assets/Image Character Animes.png";
+import { DescriptionStore } from "../atoms/DescriptionStore";
+import { TitleDescriptionStore } from "../atoms/TitleDescriptionStore";
+import { ButtonDescriptionStore } from "../molecules/ButtonDescriptionStore";
 
 export function PresentationStore() {
   return (
@@ -24,5 +24,5 @@ export function PresentationStore() {
       </div>
       <Image src={ImgAnimes} alt="Imagem de animes" className="mr-32" />
     </div>
-  )
+  );
 }

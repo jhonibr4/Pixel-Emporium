@@ -1,20 +1,20 @@
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 
-import './globals.css'
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Pixel Emporium',
-  description: '',
-}
+  title: "Pixel Emporium",
+  description: "",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className="bg-slate-900 text-zinc-50">{children}</body>
     </html>
-  )
+  );
 }

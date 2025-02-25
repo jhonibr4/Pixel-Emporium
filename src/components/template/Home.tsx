@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Alita from '../../assets/Alita.png'
-import { BoxInitial } from '../organisms/BoxInitial'
+import Image from "next/image";
+import Alita from "../../assets/Alita.png";
+import { BoxInitial } from "../organisms/BoxInitial";
 
 export function Home() {
   return (
@@ -12,5 +12,5 @@ export function Home() {
         className="absolute bottom-0 right-48 -z-10 w-1/3"
       />
     </div>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { ButtonsMenu } from '../atoms/ButtonsMenu'
+import { ButtonsMenu } from "../atoms/ButtonsMenu";
 
 export function NavMenu() {
   return (
@@ -10,5 +10,5 @@ export function NavMenu() {
       <ButtonsMenu name="HQ's" />
       <ButtonsMenu name="Contato" />
     </nav>
-  )
+  );
 }

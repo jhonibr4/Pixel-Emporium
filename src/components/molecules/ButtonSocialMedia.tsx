@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import { StaticImport } from 'next/dist/shared/lib/get-img-props'
+import Image from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 interface IButtonsSocialMedia {
-  socialURL: string
-  logo: StaticImport
-  socialMedia: string
+  socialURL: string;
+  logo: StaticImport;
+  socialMedia: string;
 }
 
 export function ButtonSocialMedia({
@@ -19,5 +19,5 @@ export function ButtonSocialMedia({
     >
       <Image src={logo} alt={socialMedia} />
     </a>
-  )
+  );
 }
