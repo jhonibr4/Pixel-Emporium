@@ -22,19 +22,24 @@ export default function Store() {
 
         <Carousel className="mt-12 w-4/5 self-center">
           <CarouselContent className="justify-evenly">
-            <CarouselItem className="h-96 basis-1/4 rounded-md border-2 bg-gray-500/20">
-              <div className="h-2/3 w-full bg-slate-600">
-                <Image src={TShirt} alt="T-shirt Deidara" />
+            <CarouselItem className=" align-center flex h-96 basis-1/4 flex-col rounded-[0.5rem] border-2 p-2">
+              <div className="flex h-56 w-full justify-center rounded-[0.5rem] bg-slate-600">
+                <Image
+                  src={TShirt}
+                  alt="T-shirt Deidara"
+                  className="h-full w-auto"
+                />
               </div>
-            </CarouselItem>
-            <CarouselItem className="h-96 basis-1/4 rounded-md border-2 bg-gray-500/20">
-              <div className="h-2/3 w-full bg-slate-600">
-                <Image src={TShirt} alt="T-shirt Deidara" />
-              </div>
-            </CarouselItem>
-            <CarouselItem className="h-96 basis-1/4 rounded-md border-2 bg-gray-500/20">
-              <div className="h-2/3 w-full bg-slate-600">
-                <Image src={TShirt} alt="T-shirt Deidara" />
+              <h1 className="ml-1 text-xl font-semibold text-principal-550">
+                Camiseta Deidara
+              </h1>
+              <div className="flex flex-col items-center self-end">
+                <p>
+                  <b>R$:120,00</b> no Pix
+                </p>
+                <p className="text-center">
+                  R$ 84,90 em até <b>2x</b> de <b>R$ 42,45</b> sem juros
+                </p>
               </div>
             </CarouselItem>
           </CarouselContent>
